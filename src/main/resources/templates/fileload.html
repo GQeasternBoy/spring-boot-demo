@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>文件上传下载</title>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        文件：<input type="file" name="upfile"/>
+        <button type="submit">上传</button>
+    </form>
+
+    <a href="/download?downfile=Oracle完全学习手册.pdf">文件下载</a>
+
+    <form method="post" enctype="multipart/form-data" action="/batch/upload">
+        文件1：<input type="file" name="file"/>
+        文件2：<input type="file" name="file"/>
+        <button type="submit">上传</button>
+    </form>
+</body>
+</html>

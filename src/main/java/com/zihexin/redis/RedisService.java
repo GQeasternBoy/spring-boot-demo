@@ -11,7 +11,7 @@ import java.util.Set;
 /**
  * Created by Administrator on 2018/6/20.
  */
-@Service
+//@Service
 public class RedisService {
 
     private Set<User> users = new HashSet<>();

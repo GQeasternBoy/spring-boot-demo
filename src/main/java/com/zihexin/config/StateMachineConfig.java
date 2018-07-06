@@ -20,8 +20,8 @@ import java.util.EnumSet;
 /**
  * Created by Administrator on 2018/6/19.
  */
-@Configuration
-@EnableStateMachine
+//@Configuration
+//@EnableStateMachine
 public class StateMachineConfig extends EnumStateMachineConfigurerAdapter<States,Events>{
 
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());

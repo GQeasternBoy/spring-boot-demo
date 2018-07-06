@@ -18,7 +18,7 @@ import java.util.Map;
 /**
  * Created by Administrator on 2018/6/11.
  */
-@Service
+//@Service
 public class MailServiceImpl implements MailService{
 
     @Autowired
